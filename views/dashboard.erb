@@ -23,10 +23,10 @@
         </div>
         <div class="mt-8">
           <h3 class="text-base font-semibold leading-6 text-gray-900">
-            <a href="/vm/create" class="focus:outline-none">
+            <a href="<%= @current_user.projects.first.path %>/vm/create" class="focus:outline-none">
               <!-- Extend touch target to entire panel -->
               <span class="absolute inset-0" aria-hidden="true"></span>
-              Create a Virtual Machine
+              Create Virtual Machine
             </a>
           </h3>
           <p class="mt-2 text-sm text-gray-500">Linux-based virtual machines that run on top of virtualized hardware. Comprehensive, cost-effective cloud
@@ -46,24 +46,24 @@
       >
         <div>
           <span class="inline-flex rounded-lg p-3 bg-purple-50 text-purple-700 ring-4 ring-white">
-            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+            <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
               <path
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                d="M21 7.5l-9-5.25L3 7.5m18 0l-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9"
+                d="M3.75 9.776c.112-.017.227-.026.344-.026h15.812c.117 0 .232.009.344.026m-16.5 0a2.25 2.25 0 00-1.883 2.542l.857 6a2.25 2.25 0 002.227 1.932H19.05a2.25 2.25 0 002.227-1.932l.857-6a2.25 2.25 0 00-1.883-2.542m-16.5 0V6A2.25 2.25 0 016 3.75h3.879a1.5 1.5 0 011.06.44l2.122 2.12a1.5 1.5 0 001.06.44H18A2.25 2.25 0 0120.25 9v.776"
               />
             </svg>
           </span>
         </div>
         <div class="mt-8">
           <h3 class="text-base font-semibold leading-6 text-gray-900">
-            <a href="#" class="focus:outline-none">
+            <a href="/project/create" class="focus:outline-none">
               <!-- Extend touch target to entire panel -->
               <span class="absolute inset-0" aria-hidden="true"></span>
-              Create an Object Storage Bucket
+              Create New Project
             </a>
           </h3>
-          <p class="mt-2 text-sm text-gray-500">Make data storage and delivery easy, reliable and affordable with our S3-compatible object storage.</p>
+          <p class="mt-2 text-sm text-gray-500">Projects are the central point for grouping resources and working with others within Ubicloud.</p>
         </div>
         <span class="pointer-events-none absolute right-6 top-6 text-gray-300 group-hover:text-gray-400" aria-hidden="true">
           <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
@@ -97,7 +97,7 @@
               My Account
             </a>
           </h3>
-          <p class="mt-2 text-sm text-gray-500">Update your account details.</p>
+          <p class="mt-2 text-sm text-gray-500">Update your account details such as name, password.</p>
         </div>
         <span class="pointer-events-none absolute right-6 top-6 text-gray-300 group-hover:text-gray-400" aria-hidden="true">
           <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
