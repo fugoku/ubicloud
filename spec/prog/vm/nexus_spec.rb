@@ -175,7 +175,7 @@ RSpec.describe Prog::Vm::Nexus do
     it "hops to start_aws if location is aws" do
       loc = Location.create(name: "us-west-2", provider: "aws", project_id: project.id, display_name: "us-west-2", ui_name: "us-west-2", visible: true)
       st = described_class.assemble("some_ssh key", project.id, location_id: loc.id)
-      expect(st.label).to eq("start_aws")
+      expect(st.label).to eq("start")
     end
   end
 
