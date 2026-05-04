@@ -1,3 +1,0 @@
-! Unexpected response status: 400
-Details: Validation failed for following fields: boot_image
-  boot_image: "bad" is not a valid boot image name. Available boot image names are: ["gpu-ubuntu-noble", "ubuntu-noble", "ubuntu-jammy", "debian-12", "almalinux-9"], or you can use machine-image-name@version, machine-image-name@latest

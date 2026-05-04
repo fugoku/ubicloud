@@ -1,3 +1,0 @@
-stack: dual
-health-check-endpoint: /up
-health-check-protocol: http
